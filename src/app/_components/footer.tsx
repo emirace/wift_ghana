@@ -1,0 +1,121 @@
+// components/Footer.tsx
+
+import Image from "next/image";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaGooglePlusG,
+} from "react-icons/fa";
+import { MdLocationOn, MdPhone, MdEmail } from "react-icons/md";
+
+export default function Footer() {
+  return (
+    <footer
+      id="contact"
+      className="relative bg-[#111] text-white pt-20 pb-10 px-8 overflow-hidden"
+    >
+      {/* Background image on the right */}
+      <div className="absolute right-0 top-0 h-full w-full opacity-10 ">
+        <img
+          src="/images/interview.png"
+          alt="Background"
+          className="object-cover h-full w-full"
+        />
+      </div>
+
+      {/* Main Footer Content */}
+      <div className="relative z-10 max-w-7xl mx-auto grid md:grid-cols-4 gap-10">
+        {/* Logo & Description */}
+        <div>
+          <div className="flex items-center gap-2 text-2xl font-medium mb-4">
+            <Image src="/images/logo.png" alt="Logo" width={40} height={40} />
+            <div className="mt-2 hidden md:block">WIFT Ghana</div>
+          </div>
+          <p className="mb-6">
+            Lorem ipsum dolor amet consectetur adipisicing elit sed do eiusmod
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+            quis nostru
+          </p>
+
+          {/* Social Icons */}
+          <div className="flex space-x-4">
+            {[FaFacebookF, FaTwitter, FaInstagram, FaGooglePlusG].map(
+              (Icon, idx) => (
+                <div
+                  key={idx}
+                  className="bg-white text-primary-maron p-3 rounded-full cursor-pointer hover:bg-primary-maron hover:text-white transition"
+                >
+                  <Icon size={18} />
+                </div>
+              )
+            )}
+          </div>
+        </div>
+
+        {/* Contact Info */}
+        <div>
+          <h3 className="text-primary-maron text-xl font-bold mb-6">
+            Contact Info
+          </h3>
+          <div className="space-y-4 text-sm">
+            <div className="flex items-start gap-3">
+              <MdLocationOn className="text-primary-green mt-1" size={20} />
+              <div>
+                <p className="text-white font-semibold">Address</p>
+                <p>to be added.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <MdPhone className="text-primary-green mt-1" size={20} />
+              <div>
+                <p className="text-white font-semibold">Phone Us</p>
+                <p>+233267065858</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <MdEmail className="text-primary-green mt-1" size={20} />
+              <div>
+                <p className="text-white font-semibold">Mail Us</p>
+                <p>ghanawomeninfilmtvmediaforum@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Services List */}
+        <div>
+          <h3 className="text-primary-maron text-xl font-bold mb-6">
+            Services List
+          </h3>
+          <ul className="space-y-4 text-sm">
+            <li>Corporate Videography</li>
+            <li>Video Editing / Effects</li>
+            <li>Teleprompter Services</li>
+            <li>Get Your Final Visual Effects</li>
+            <li>Idea Generator & Direction</li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Footer Bottom */}
+      <div className="relative z-10 border-t border-gray-700 mt-16 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+        <p>Copyright ©2025 WIFT Ghana. All Rights Reserved</p>
+        <div className="flex space-x-6 mt-4 md:mt-0">
+          <a href="#" className="hover:text-primary-maron">
+            About
+          </a>
+          <a href="#" className="hover:text-primary-maron">
+            Pillars
+          </a>
+          <a href="#" className="hover:text-primary-maron">
+            Portfolios
+          </a>
+          <a href="#" className="hover:text-primary-maron">
+            Contact
+          </a>
+        </div>
+      </div>
+    </footer>
+  );
+}
