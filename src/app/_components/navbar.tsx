@@ -1,10 +1,8 @@
 "use client";
 
-import { FaPhoneAlt } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
 import { FiSearch } from "react-icons/fi";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { IoCloseSharp } from "react-icons/io5";
 import { RiMenu3Fill } from "react-icons/ri";
 
@@ -17,22 +15,6 @@ const navs = [
 ];
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 100) {
-        setIsVisible(true);
-      } else {
-        setIsVisible(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
   return (
     <div className="flex  justify-between items-center px-6 py-4 overflow-y-auto overflow-x-hidden max-w-7xl mx-auto">

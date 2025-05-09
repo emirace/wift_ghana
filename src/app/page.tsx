@@ -1,6 +1,5 @@
 import FloatingHeader from "./_components/floatingHeader";
 import Hero from "./_components/hero";
-import HorizontalCards from "./_components/horizontalCards";
 import PresidentStatement from "./_components/presidentStatement";
 import About from "./_components/about";
 import Pillars from "./_components/pillars";

@@ -55,16 +55,17 @@ export default function PresidentStatement() {
           <div className="text-primary-maron text-5xl mb-4">❝</div>
           <p className="text-gray-700 text-lg leading-relaxed mb-6">
             It is a privilege to serve as President of this vibrantgroup of
-            women in Ghana's film and television industries. Our chapter is part
-            of a global network ofWomen In Film and Television International
-            groups that promote gender equality in the film and
-            televisionindustries, and we are dedicated to improvingwomen's roles
-            in these fields. Despite recent advancements globally, women in our
-            industry continue to confrontsubstantial difficulties. Women are
-            frequently excluded and underrepresented in thesector, with unequal
-            compensation and little prospects for leadership positions. Thisis
-            especially true for women from marginalized groups, who face
-            significantobstacles to entry and advancement.
+            women in Ghana`&apos;`s film and television industries. Our chapter
+            is part of a global network ofWomen In Film and Television
+            International groups that promote gender equality in the film and
+            televisionindustries, and we are dedicated to
+            improvingwomen`&apos;`s roles in these fields. Despite recent
+            advancements globally, women in our industry continue to
+            confrontsubstantial difficulties. Women are frequently excluded and
+            underrepresented in thesector, with unequal compensation and little
+            prospects for leadership positions. Thisis especially true for women
+            from marginalized groups, who face significantobstacles to entry and
+            advancement.
           </p>
           <button
             onClick={() => setContinueRead(!continueRead)}
@@ -82,15 +83,15 @@ export default function PresidentStatement() {
           specific women who encounter these problems, theseproblems also feed
           into an inhospitable and exclusive culture. We are dedicated as an
           organization to resolving these problems and establishing a more fair
-          and welcoming workplace for all women. We're going to keep pushing
-          formore leadership possibilities, safe and courteous working
+          and welcoming workplace for all women. We`&apos;`re going to keep
+          pushing formore leadership possibilities, safe and courteous working
           conditions, and equitablecompensation. Additionally, we will endeavor
           to advance diversity and inclusivity in representation and
           storytelling so that all women can see themselves representedon
           television. I am honored to be a member of this community of driven
           and committed women, and I have faith that we can change things
-          together. Let's stick together and keepfighting for a more just and
-          equal industry.
+          together. Let`&apos;`s stick together and keepfighting for a more just
+          and equal industry.
         </div>
       )}
     </section>
