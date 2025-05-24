@@ -13,34 +13,46 @@ export default function About() {
       </h2>
       <div className="flex flex-col-reverse md:flex-row items-center gap-10 justify-between ">
         <div className="md:w-3/5 mt-12 md:mt-0">
-          <p className="text-gray-600 mb-8 text-lg leading-relaxeyd">
-            A network of women called Women in Film and Television Ghana (WIFT
-            Ghana) is working to create a more diverse film, television, and
-            digital media landscape. We aim to close the gender gap in
-            production,leadership, and narrative as a chapter of Women in Film
-            and Television International (WIFTI), which hasmore than 50 chapters
-            worldwide. Filmmakers, producers, screenwriters, performers, and
-            mediaprofessionals dedicated to promoting innovation and career
-            advancement make up our membership. Inour opinion, a completely
-            female-represented sector will be more dynamic and more
-            representative of a range of viewpoints. Through our programs, we
-            hope to provide women in all facets of media with thetools and
-            chances they need to succeed. Professionals such as actors, writers,
-            producers, and directors are among our members. Since we thinkthat
-            diversity and inclusion are essential to building a thriving and
-            prosperous sector, we strive to givewomen from all backgrounds the
-            chance to thrive. Through our efforts, we seek to encourage women
-            inour sector to thrive, follow their aspirations, have access to a
-            network of support, and gain economicempowerment for all future
-            generations.
+          <p className="font-medium mb-2 text-lg">
+            Redefining Ghana’s Film, TV & Digital Media — One Woman at a Time
+          </p>
+          <p className="text-gray-600 mb-2 text-lg leading-relaxeyd">
+            There’s a silent revolution happening in Ghana’s film and television
+            industry — and at the heart of it is a fierce, unstoppable network
+            of women. Welcome to Women in Film and Television Ghana (WIFT
+            Ghana)— a force committed to rewriting the story of women in media.
           </p>
 
-          <div className="flex items-center gap-6">
+          <p className="text-gray-600 mb-4 text-lg leading-relaxeyd">
+            As the Ghanaian chapter of Women in Film & Television International
+            (WIFTI) — a global network with over 50 powerful chapters worldwide
+            — our mission is clear: To close the gender gap in production,
+            leadership, funding, and storytelling. We’re not just advocating for
+            change. We are building it.
+          </p>
+          <div className="text-primary-green text-2xl font-semibold mb-2">
+            Who We Are
+          </div>
+
+          <p className="text-gray-600 mb-2 text-lg leading-relaxeyd">
+            WIFT Ghana is home to a growing collective of filmmakers, producers,
+            directors, screenwriters, editors, actors, cinematographers, and
+            media professionals united by a common vision: to amplify women’s
+            voices, champion equity, and reshape how stories are told — both in
+            front of and behind the screen.
+          </p>
+          <p className="text-gray-600 mb-2 text-lg leading-relaxeyd">
+            We believe that a fully inclusive and female-empowered industry is
+            not just an ideal — it’s essential. A dynamic, diverse media
+            landscape is one where every voice matters and every woman thrives.
+          </p>
+
+          {/* <div className="flex items-center gap-6">
             <button className="bg-primary-maron hover:bg-primary-text-primary-maron text-white font-semibold py-3 px-8 rounded-full flex items-center gap-2">
               Learn More
               <span className="text-xl">➔</span>
             </button>
-          </div>
+          </div> */}
         </div>
 
         <div className="relative md:mt-12 lg:mt-0 w-full md:w-2/5">

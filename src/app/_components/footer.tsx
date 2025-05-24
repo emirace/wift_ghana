@@ -16,13 +16,13 @@ export default function Footer() {
       className="relative bg-[#111] text-white pt-20 pb-10 px-8 overflow-hidden"
     >
       {/* Background image on the right */}
-      <div className="absolute right-0 top-0 h-full w-full opacity-10 ">
+      {/* <div className="absolute right-0 top-0 h-full w-full opacity-10 ">
         <img
           src="/images/interview.png"
           alt="Background"
           className="object-cover h-full w-full"
         />
-      </div>
+      </div> */}
 
       {/* Main Footer Content */}
       <div className="relative z-10 max-w-7xl mx-auto grid md:grid-cols-4 gap-10">

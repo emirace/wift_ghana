@@ -5,6 +5,10 @@ import About from "./_components/about";
 import Pillars from "./_components/pillars";
 import Footer from "./_components/footer";
 import ExecutiveTeam from "./_components/excutiveTeams";
+import VisionMission from "./_components/vision";
+import WhyUs from "./_components/whyUs";
+import OurObjectives from "./_components/ourObjectives";
+import ActionBanner from "./_components/actionBanner";
 
 export default function Home() {
   return (
@@ -50,8 +54,12 @@ export default function Home() {
           ]}
         />
       </div> */}
+      <VisionMission />
       <Pillars />
+      <WhyUs />
+      <OurObjectives />
       <ExecutiveTeam />
+      <ActionBanner />
       <Footer />
     </div>
   );

@@ -10,7 +10,7 @@ export default function PresidentStatement() {
   return (
     <section
       id="president"
-      className="relative bg-accent/50 py-20 px-8 flex flex-col md:items-center md:text-center overflow-hidden "
+      className="relative bg-accent/20 py-20 px-8 flex flex-col md:items-center md:text-center overflow-hidden "
     >
       {/* Top Title */}
       <div className="flex items-center gap-4 mb-4">
@@ -35,7 +35,7 @@ export default function PresidentStatement() {
             <div className="absolute top-[-10px] left-[-10px] w-full h-full bg-primary-maron rounded-3xl" />
             <div className="relative w-full h-full rounded-3xl overflow-hidden">
               <Image
-                src="/images/image01.jpg"
+                src="/images/president.jpg"
                 alt="President"
                 fill
                 className="object-cover"
@@ -53,19 +53,23 @@ export default function PresidentStatement() {
         {/* Statement */}
         <div className=" text-left max-w-xl">
           <div className="text-primary-maron text-5xl mb-4">❝</div>
-          <p className="text-gray-700 text-lg leading-relaxed mb-6">
-            It is a privilege to serve as President of this vibrantgroup of
-            women in Ghana`&apos;`s film and television industries. Our chapter
-            is part of a global network ofWomen In Film and Television
-            International groups that promote gender equality in the film and
-            televisionindustries, and we are dedicated to
-            improvingwomen`&apos;`s roles in these fields. Despite recent
-            advancements globally, women in our industry continue to
-            confrontsubstantial difficulties. Women are frequently excluded and
-            underrepresented in thesector, with unequal compensation and little
-            prospects for leadership positions. Thisis especially true for women
-            from marginalized groups, who face significantobstacles to entry and
-            advancement.
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">
+            It is both an honour and a responsibility to serve as President of
+            Women in Film & Television Ghana (WIFT Ghana) — a dynamic,
+            purpose-driven network of visionary women in Ghana’s film,
+            television, and media industries.
+          </p>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">
+            As part of the global Women in Film & Television International
+            (WIFTI) network, our mission is to amplify the voices and visibility
+            of women across every level of the entertainment industry. While the
+            global industry has made progress, women in Ghana — particularly
+            those from underrepresented backgrounds — still face significant
+            barriers, including limited access to leadership roles, funding,
+            fair compensation, and safe, inclusive workspaces.
+          </p>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">
+            WIFT Ghana exists to change that.
           </p>
           <button
             onClick={() => setContinueRead(!continueRead)}
@@ -76,22 +80,25 @@ export default function PresidentStatement() {
         </div>
       </div>
       {continueRead && (
-        <div className="mt-4 text-gray-700 text-lg leading-relaxed mb-6 text-left max-w-5xl mx-auto">
-          In addition, sexual harassment and discrimination are all too
-          widespread in the film and television industries, making them
-          inhospitable places for women. In addition to having an effect on the
-          specific women who encounter these problems, theseproblems also feed
-          into an inhospitable and exclusive culture. We are dedicated as an
-          organization to resolving these problems and establishing a more fair
-          and welcoming workplace for all women. We`&apos;`re going to keep
-          pushing formore leadership possibilities, safe and courteous working
-          conditions, and equitablecompensation. Additionally, we will endeavor
-          to advance diversity and inclusivity in representation and
-          storytelling so that all women can see themselves representedon
-          television. I am honored to be a member of this community of driven
-          and committed women, and I have faith that we can change things
-          together. Let`&apos;`s stick together and keepfighting for a more just
-          and equal industry.
+        <div className="mt-4 text-left max-w-5xl mx-auto">
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">
+            We are committed to championing gender equality, nurturing creative
+            talent, and building an industry where women are empowered to lead,
+            innovate, and shape narratives that reflect our diverse realities.
+            We believe every woman deserves not just a voice, but a seat at the
+            table — as a creator, leader, and changemaker.
+          </p>
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">
+            I am continually inspired by the resilience, brilliance, and
+            creativity of the women in this community. Together, we are laying
+            the foundation for a future where the next generation of Ghanaian
+            women in media can thrive — free from limitations, and full of
+            possibilities.
+          </p>{" "}
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">
+            Let’s keep pushing forward, united in purpose and passion — building
+            a new era for women in film and television in Ghana and beyond.
+          </p>
         </div>
       )}
     </section>
