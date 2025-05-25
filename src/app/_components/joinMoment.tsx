@@ -43,6 +43,7 @@ function JoinMoment({ close }: { close: () => void }) {
         message: "",
       });
     } catch (err) {
+      console.log(err);
       setError("An error occurred. Please try again.");
     } finally {
       setLoading(false);
