@@ -16,11 +16,11 @@ const executives = [
     name: "Sonia Ibrahim",
     image: "/images/sonia.jpg",
   },
-  {
-    name: "Full name",
-    role: "pOSITION",
-    image: "/images/executive3.jpg",
-  },
+  // {
+  //   name: "Full name",
+  //   role: "pOSITION",
+  //   image: "/images/executive3.jpg",
+  // },
 ];
 
 export default function ExecutiveTeam() {
@@ -30,7 +30,7 @@ export default function ExecutiveTeam() {
         Meet Our Executive Team
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-3  gap-10">
+      <div className="flex flex-wrap items-center gap-10">
         {executives.map((exec, idx) => (
           <div
             key={idx}

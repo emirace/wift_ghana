@@ -11,6 +11,7 @@ const navs = [
   { name: "About", path: "/#about" },
   { name: "President", path: "/#president" },
   { name: "Pillars", path: "/#pillars" },
+  { name: "Partner", path: "/#partner" },
   { name: "Contact", path: "/#contact" },
 ];
 export default function Navbar() {

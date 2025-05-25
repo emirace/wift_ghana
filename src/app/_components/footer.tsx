@@ -7,7 +7,28 @@ import {
   FaInstagram,
   FaGooglePlusG,
 } from "react-icons/fa";
-import { MdLocationOn, MdPhone, MdEmail } from "react-icons/md";
+import { MdPhone, MdEmail } from "react-icons/md";
+
+const icons = [
+  {
+    icon: FaFacebookF,
+    link: "",
+  },
+
+  {
+    icon: FaTwitter,
+    link: "",
+  },
+
+  {
+    icon: FaInstagram,
+    link: "https://www.instagram.com/wiftghana?igsh=MWx6aXNvbGsxM28zZw==",
+  },
+  {
+    icon: FaGooglePlusG,
+    link: "",
+  },
+];
 
 export default function Footer() {
   return (
@@ -41,16 +62,16 @@ export default function Footer() {
 
           {/* Social Icons */}
           <div className="flex space-x-4">
-            {[FaFacebookF, FaTwitter, FaInstagram, FaGooglePlusG].map(
-              (Icon, idx) => (
-                <div
-                  key={idx}
-                  className="bg-white text-primary-maron p-3 rounded-full cursor-pointer hover:bg-primary-maron hover:text-white transition"
-                >
-                  <Icon size={18} />
-                </div>
-              )
-            )}
+            {icons.map((Icon, idx) => (
+              <a
+                key={idx}
+                href={Icon.link}
+                target="_blank"
+                className="bg-white text-primary-maron p-3 rounded-full cursor-pointer hover:bg-primary-maron hover:text-white transition"
+              >
+                <Icon.icon size={18} />
+              </a>
+            ))}
           </div>
         </div>
 
@@ -60,13 +81,13 @@ export default function Footer() {
             Contact Info
           </h3>
           <div className="space-y-4 text-sm">
-            <div className="flex items-start gap-3">
+            {/* <div className="flex items-start gap-3">
               <MdLocationOn className="text-primary-green mt-1" size={20} />
               <div>
                 <p className="text-white font-semibold">Address</p>
                 <p>to be added.</p>
               </div>
-            </div>
+            </div> */}
             <div className="flex items-start gap-3">
               <MdPhone className="text-primary-green mt-1" size={20} />
               <div>
