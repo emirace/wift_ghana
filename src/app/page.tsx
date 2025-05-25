@@ -9,6 +9,7 @@ import VisionMission from "./_components/vision";
 import WhyUs from "./_components/whyUs";
 import OurObjectives from "./_components/ourObjectives";
 import ActionBanner from "./_components/actionBanner";
+import Partners from "./_components/partiners";
 
 export default function Home() {
   return (
@@ -59,6 +60,7 @@ export default function Home() {
       <WhyUs />
       <OurObjectives />
       <ExecutiveTeam />
+      <Partners />
       <ActionBanner />
       <Footer />
     </div>

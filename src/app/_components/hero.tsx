@@ -58,25 +58,27 @@ export default function Hero() {
             }}
             className="flex gap-4 mt-10"
           >
-            <motion.button
+            <motion.a
               variants={{
                 hidden: { opacity: 0, y: 20 },
                 visible: { opacity: 1, y: 0 },
               }}
+              href="#about"
               className="bg-primary-maron flex items-center gap-4 text-white px-6 py-3 rounded-full font-semibold hover:bg-orange-600 transition"
             >
               About Us <FiArrowRight />
-            </motion.button>
+            </motion.a>
 
-            <motion.button
+            <motion.a
               variants={{
                 hidden: { opacity: 0, y: 20 },
                 visible: { opacity: 1, y: 0 },
               }}
+              href="#contact"
               className="bg-primary-green flex items-center gap-4 text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition"
             >
               Contact Us <FiArrowRight />
-            </motion.button>
+            </motion.a>
           </motion.div>
         </div>
       </motion.div>

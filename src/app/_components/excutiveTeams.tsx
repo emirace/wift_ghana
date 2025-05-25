@@ -14,7 +14,6 @@ const executives = [
   },
   {
     name: "Sonia Ibrahim",
-    role: "POSITION",
     image: "/images/sonia.jpg",
   },
   {
@@ -27,9 +26,6 @@ const executives = [
 export default function ExecutiveTeam() {
   return (
     <section className="py-12 bg-white text-center max-w-7xl mx-auto">
-      <h4 className="text-sm text-primary-maron font-bold uppercase mb-2">
-        Our Team Member
-      </h4>
       <h2 className="text-4xl font-bold text-gray-900 mb-10">
         Meet Our Executive Team
       </h2>
@@ -58,9 +54,11 @@ export default function ExecutiveTeam() {
             <h5 className="mt-3 text-lg font-semibold text-gray-900">
               {exec.name}
             </h5>
-            <p className="text-xs text-primary-maron font-bold mt-1 uppercase">
-              {exec.role}
-            </p>
+            {exec.role && (
+              <p className="text-xs text-primary-maron font-bold mt-1 uppercase">
+                {exec.role}
+              </p>
+            )}
           </div>
         ))}
       </div>

@@ -33,9 +33,10 @@ export default function Footer() {
             <div className="mt-2 hidden md:block">WIFT Ghana</div>
           </div>
           <p className="mb-6">
-            Lorem ipsum dolor amet consectetur adipisicing elit sed do eiusmod
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-            quis nostru
+            WIFT Ghana is a proud member of the global WIFTI network, committed
+            to empowering women in Ghana’s film, TV, and media industries. We
+            amplify voices, champion visibility, and work to dismantle barriers
+            to leadership, funding, and inclusion.
           </p>
 
           {/* Social Icons */}

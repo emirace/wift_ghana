@@ -36,7 +36,7 @@ export default function WhyUs() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true, amount: 0.5 }}
           transition={{ delay: 0.4, duration: 0.8 }}
-          className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto mb-12 leading-relaxed"
+          className="text-lg text-left md:text-center md:text-xl text-gray-700 max-w-3xl mx-auto mb-12 leading-relaxed "
         >
           Ghana’s media and entertainment industry is booming — but the
           opportunities are not equally shared. Women still face barriers to
