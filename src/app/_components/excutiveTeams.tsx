@@ -1,10 +1,4 @@
 import Image from "next/image";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaGooglePlusG,
-  FaInstagram,
-} from "react-icons/fa";
 
 const executives = [
   {
@@ -45,12 +39,12 @@ export default function ExecutiveTeam() {
                 className="w-full h-96 object-cover  hover:grayscale transition duration-500"
               />
             </div>
-            <div className="flex justify-center gap-4 mt-4 text-primary-maron font-bold">
+            {/* <div className="flex justify-center gap-4 mt-4 text-primary-maron font-bold">
               <FaFacebookF className="hover:text-primary-green cursor-pointer" />
               <FaTwitter className="hover:text-primary-green cursor-pointer" />
               <FaGooglePlusG className="hover:text-primary-green cursor-pointer" />
               <FaInstagram className="hover:text-primary-green cursor-pointer" />
-            </div>
+            </div> */}
             <h5 className="mt-3 text-lg font-semibold text-gray-900">
               {exec.name}
             </h5>
