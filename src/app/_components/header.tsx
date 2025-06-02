@@ -16,11 +16,11 @@ export default function Header() {
         <div className="flex items-center gap-6 text-primary-maron">
           <div className="flex items-center gap-2">
             <FaPhoneAlt className="text-primary-green" />
-            <span>+89756421301</span>
+            <span>+233267065858</span>
           </div>
           <div className="flex items-center gap-2">
             <HiOutlineMail className="text-primary-green" />
-            <span>support@gmail.com</span>
+            <span>info@gwift.com</span>
           </div>
         </div>
       </div>

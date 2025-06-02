@@ -91,7 +91,7 @@ export default function Footer() {
             <div className="flex items-start gap-3">
               <MdPhone className="text-primary-green mt-1" size={20} />
               <div>
-                <p className="text-white font-semibold">Phone Us</p>
+                <p className="text-white font-semibold">Phone/Whatsapp</p>
                 <p>+233267065858</p>
               </div>
             </div>
@@ -99,7 +99,7 @@ export default function Footer() {
               <MdEmail className="text-primary-green mt-1" size={20} />
               <div>
                 <p className="text-white font-semibold">Mail Us</p>
-                <p>ghanawomeninfilmtvmediaforum@gmail.com</p>
+                <p>info@gwift.com</p>
               </div>
             </div>
           </div>
@@ -111,11 +111,13 @@ export default function Footer() {
             Services List
           </h3>
           <ul className="space-y-4 text-sm">
-            <li>Corporate Videography</li>
-            <li>Video Editing / Effects</li>
-            <li>Teleprompter Services</li>
-            <li>Get Your Final Visual Effects</li>
-            <li>Idea Generator & Direction</li>
+            <li>Film Production</li>
+            <li>TV Broadcasting</li>
+            <li>Scriptwriting</li>
+            <li>Directing</li>
+            <li>Cinematography</li>
+            <li>Acting</li>
+            <li>Entrepreneurship in Media</li>
           </ul>
         </div>
       </div>
