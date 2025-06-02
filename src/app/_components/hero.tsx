@@ -64,7 +64,7 @@ export default function Hero() {
                 visible: { opacity: 1, y: 0 },
               }}
               href="#about"
-              className="bg-primary-maron flex items-center gap-4 text-white px-6 py-3 rounded-full font-semibold hover:bg-orange-600 transition"
+              className="bg-primary-maron flex items-center gap-4 text-white px-6 py-3 rounded-full font-semibold"
             >
               About Us <FiArrowRight />
             </motion.a>
@@ -75,7 +75,7 @@ export default function Hero() {
                 visible: { opacity: 1, y: 0 },
               }}
               href="#contact"
-              className="bg-primary-green flex items-center gap-4 text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition"
+              className="bg-primary-green flex items-center gap-4 text-white px-6 py-3 rounded-full font-semibold "
             >
               Contact Us <FiArrowRight />
             </motion.a>

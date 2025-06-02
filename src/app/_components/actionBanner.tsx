@@ -1,10 +1,6 @@
 "use client";
 
-import { useState } from "react";
-import JoinMoment from "./joinMoment";
-
 export default function ActionBanner() {
-  const [show, setShow] = useState(false);
   return (
     <section className="relative bg-gradient-to-b from-primary-maron to-primary-green text-white py-10 px-6 md:px-16 overflow-hidden">
       <div className="absolute inset-0 opacity-10 bg-[url('/images/interview.png')] bg-cover bg-center pointer-events-none" />
@@ -22,14 +18,14 @@ export default function ActionBanner() {
           Join us in building a Ghana where women not only dream in color but
           direct, produce, write, and act in it too.
         </p>
-        <button
-          onClick={() => setShow(true)}
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLScBgcY1_tpDHKRdXTl10bPMbZ3h52d5xirN054Lq6Wt6xU4tw/viewform?fbclid=PAQ0xDSwKn_aRleHRuA2FlbQIxMQABp3cwU07KXThpmlqO-cu_1LnD8h_aPIWGqVZn9CXwgkPGi2evz35WZ6FH2ZJA_aem_OJ1d9vJWMoxFAzxJMiPFSA"
+          target="_blank"
           className="bg-white cursor-pointer text-primary-maron font-semibold px-8 py-3 rounded-full shadow-md hover:bg-orange-100 transition duration-300"
         >
           Join the Movement
-        </button>
+        </a>
       </div>
-      {show && <JoinMoment close={() => setShow(false)} />}
     </section>
   );
 }
