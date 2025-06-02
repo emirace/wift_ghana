@@ -99,7 +99,7 @@ export default function Footer() {
               <MdEmail className="text-primary-green mt-1" size={20} />
               <div>
                 <p className="text-white font-semibold">Mail Us</p>
-                <p>info@gwift.com</p>
+                <p>info@gwift.org</p>
               </div>
             </div>
           </div>

@@ -20,7 +20,7 @@ export default function Header() {
           </div>
           <div className="flex items-center gap-2">
             <HiOutlineMail className="text-primary-green" />
-            <span>info@gwift.com</span>
+            <span>info@gwift.org</span>
           </div>
         </div>
       </div>
