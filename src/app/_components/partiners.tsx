@@ -3,6 +3,8 @@ export default function Partners() {
     { name: "WIF", logo: "/images/wif.jpg" },
     { name: "WIFT African", logo: "/images/wift_african.jpg" },
     { name: "Ghana Film Commission", logo: "/images/un_women.jpg" },
+    { name: "Cypress", logo: "/images/cypress.JPG" },
+    { name: "Black Hub", logo: "/images/blackhub.png" },
   ];
 
   return (
@@ -16,7 +18,7 @@ export default function Partners() {
             <img
               src={partner.logo}
               alt={partner.name}
-              className="h-16 object-contain"
+              className="w-24 md:w-32 object-contain"
             />
           </div>
         ))}
