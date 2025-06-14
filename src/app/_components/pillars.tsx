@@ -98,7 +98,7 @@ export default function Pillars() {
       >
         <div className="relative z-10 w-[500px] h-[500px] rounded-full overflow-hidden border-8 border-white shadow-lg">
           <img
-            src="/images/training.png"
+            src="/images/image05.JPG"
             alt="Main"
             className="object-cover w-full h-full"
           />

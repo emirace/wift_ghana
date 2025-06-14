@@ -9,6 +9,7 @@ const executives = [
   {
     name: "Sonia Ibrahim",
     image: "/images/sonia.jpg",
+    role: "HEAD OF EVENTS",
   },
   // {
   //   name: "Full name",

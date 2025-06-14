@@ -58,16 +58,16 @@ export default function About() {
         <div className="relative md:mt-12 lg:mt-0 w-full md:w-2/5">
           <div className="relative w-full h-[400px] md:h-[500px] rounded-3xl overflow-hidden md:-mt-28">
             <Image
-              src="/images/interview.png"
+              src="/images/image04.JPG"
               alt="Camera man"
               layout="fill"
               objectFit="cover"
               className="rounded-3xl shadow-lg"
             />
           </div>
-          <div className="absolute -bottom-16 left-10 w-[250px] md:w-[350px] h-[200px] md:h-[300px] rounded-3xl overflow-hidden ">
+          <div className="absolute -bottom-16 right-0 w-[250px] md:w-[350px] h-[200px] md:h-[300px] rounded-3xl overflow-hidden ">
             <Image
-              src="/images/camgirl.png"
+              src="/images/image05.JPG"
               alt="Smiling man"
               layout="fill"
               objectFit="cover"

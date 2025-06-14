@@ -19,7 +19,7 @@ export default function ActionBanner() {
           direct, produce, write, and act in it too.
         </p>
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLScBgcY1_tpDHKRdXTl10bPMbZ3h52d5xirN054Lq6Wt6xU4tw/viewform?fbclid=PAQ0xDSwKn_aRleHRuA2FlbQIxMQABp3cwU07KXThpmlqO-cu_1LnD8h_aPIWGqVZn9CXwgkPGi2evz35WZ6FH2ZJA_aem_OJ1d9vJWMoxFAzxJMiPFSA"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfRXtDX6OsOr-TWIEkxNwIp7n597EKfqOwjMYdkzxKTHcaxRg/viewform?embedded=true"
           target="_blank"
           className="bg-white cursor-pointer text-primary-maron font-semibold px-8 py-3 rounded-full shadow-md hover:bg-orange-100 transition duration-300"
         >

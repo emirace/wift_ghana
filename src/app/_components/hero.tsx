@@ -9,11 +9,11 @@ export default function Hero() {
     <section
       className="relative bg-cover bg-center h-screen text-white sm:bg-right"
       style={{
-        backgroundImage: "url('/images/hero.png')",
-        backgroundPosition: "right",
+        backgroundImage: "url('/images/image03.JPG')",
+        backgroundPosition: "center",
       }}
     >
-      <div className="absolute inset-0 bg-black/50"></div>
+      <div className="absolute inset-0 bg-black/90"></div>
       <Header />
 
       <motion.div
