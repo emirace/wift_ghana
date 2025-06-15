@@ -1,15 +1,24 @@
-import dbConnect from "@/lib/mongodb";
-import Event, { IEvent } from "@/models/event";
+"use client";
+
+import { IEvent } from "@/models/event";
 import UpcomingEventCard from "./_components/upcomingEventCard";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
-async function getEvents(): Promise<IEvent[]> {
-  await dbConnect();
-  const events = await Event.find({}).sort({ date: -1 }).lean();
-  return events as unknown as IEvent[];
-}
+const UpcomingEventSection = () => {
+  const [events, setEvents] = useState<IEvent[]>([]);
 
-const UpcomingEventSection = async () => {
-  const events = await getEvents();
+  useEffect(() => {
+    const fetchEvents = async () => {
+      try {
+        const res = await axios.get<IEvent[]>("/api/events");
+        setEvents(res.data);
+      } catch (error) {
+        setEvents([]);
+      }
+    };
+    fetchEvents();
+  }, []);
 
   return (
     <div className="container max-w-7xl mx-auto my-8 px-4">
