@@ -16,6 +16,7 @@ export async function GET() {
     const events = await Event.find({}).sort({ date: -1 }).lean();
     return new Response(JSON.stringify(events), { status: 200 });
   } catch (error) {
+    console.error("Error fetching events:", error);
     return new Response(JSON.stringify({ message: "Error fetching events" }), {
       status: 500,
     });
@@ -38,6 +39,7 @@ export async function POST(req: Request) {
     await event.save();
     return new Response(JSON.stringify(event), { status: 201 });
   } catch (error) {
+    console.error("Error creating event:", error);
     return new Response(JSON.stringify({ message: "Error creating event" }), {
       status: 400,
     });

@@ -26,6 +26,7 @@ export async function GET(req: Request, { params }: Params) {
     }
     return new Response(JSON.stringify(event), { status: 200 });
   } catch (error) {
+    console.log("Error fetching event:", error);
     return new Response(JSON.stringify({ message: "Error fetching event" }), {
       status: 500,
     });
@@ -52,6 +53,7 @@ export async function PUT(req: Request, { params }: Params) {
     }
     return new Response(JSON.stringify(event), { status: 200 });
   } catch (error) {
+    console.log("Error updating event:", error);
     return new Response(JSON.stringify({ message: "Error updating event" }), {
       status: 400,
     });
@@ -79,6 +81,7 @@ export async function DELETE(req: Request, { params }: Params) {
       status: 200,
     });
   } catch (error) {
+    console.log("Error deleting event:", error);
     return new Response(JSON.stringify({ message: "Error deleting event" }), {
       status: 500,
     });

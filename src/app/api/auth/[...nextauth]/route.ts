@@ -1,4 +1,4 @@
-import NextAuth, { AuthOptions, User as NextAuthUser } from "next-auth";
+import NextAuth, { AuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 import dbConnect from "@/lib/mongodb";
 import User from "@/models/user";

@@ -2,7 +2,6 @@
 
 import { useState, useEffect, useRef, ChangeEvent } from "react";
 import { useSession, signOut } from "next-auth/react";
-import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { IEvent } from "@/models/event";
 import { MdImage } from "react-icons/md";
@@ -17,8 +16,7 @@ interface FormData {
 }
 
 export default function ClientEventsAdmin() {
-  const { data: session, status } = useSession();
-  const router = useRouter();
+  const { status } = useSession();
   const [events, setEvents] = useState<IEvent[]>([]);
   const [form, setForm] = useState<FormData>({
     title: "",
@@ -60,6 +58,7 @@ export default function ClientEventsAdmin() {
       const data: IEvent[] = await res.json();
       setEvents(data);
     } catch (error) {
+      console.error("Error fetching events:", error);
       setToast({ message: "Failed to fetch events", type: "error" });
     } finally {
       setLoading(false);
@@ -101,6 +100,7 @@ export default function ClientEventsAdmin() {
       if (fileInputRef.current) fileInputRef.current.value = "";
       fetchEvents();
     } catch (error) {
+      console.error("Error saving event:", error);
       setToast({ message: "Failed to save event", type: "error" });
     } finally {
       setLoading(false);
@@ -127,6 +127,7 @@ export default function ClientEventsAdmin() {
       setToast({ message: "Event deleted successfully", type: "success" });
       fetchEvents();
     } catch (error) {
+      console.error("Error deleting event:", error);
       setToast({ message: "Failed to delete event", type: "error" });
     } finally {
       setLoading(false);
@@ -149,6 +150,7 @@ export default function ClientEventsAdmin() {
 
       setToast({ message: "Image uploaded", type: "success" });
     } catch (err) {
+      console.error("Error uploading image:", err);
       setToast({ message: "Failed uploading image", type: "error" });
     } finally {
       setUploading(false);
