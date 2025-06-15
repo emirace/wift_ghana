@@ -1,7 +1,7 @@
+import { authOptions } from "@/lib/authOptions";
 import dbConnect from "@/lib/mongodb";
 import Event from "@/models/event";
 import { getServerSession } from "next-auth";
-import { authOptions } from "../auth/[...nextauth]/route";
 
 interface EventData {
   title: string;

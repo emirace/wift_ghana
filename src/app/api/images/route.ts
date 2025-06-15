@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { PutObjectCommand, S3Client } from "@aws-sdk/client-s3";
 import { v4 as uuidv4 } from "uuid";
-import { authOptions } from "../auth/[...nextauth]/route";
 import { getServerSession } from "next-auth";
+import { authOptions } from "@/lib/authOptions";
 
 // Required to adapt multer for App Router
 export const config = {

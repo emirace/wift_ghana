@@ -1,7 +1,7 @@
+import { authOptions } from "@/lib/authOptions";
 import dbConnect from "@/lib/mongodb";
 import Event from "@/models/event";
 import { getServerSession } from "next-auth";
-import { authOptions } from "../../auth/[...nextauth]/route";
 
 interface EventData {
   title: string;
@@ -10,12 +10,11 @@ interface EventData {
   location: string;
 }
 
-interface Params {
-  params: { id: string };
-}
-
-export async function GET(req: Request, { params }: Params) {
-  const { id } = params;
+export async function GET(
+  req: Request,
+  { params }: { params: Promise<{ id: string }> }
+) {
+  const { id } = await params;
   await dbConnect();
   try {
     const event = await Event.findById(id).lean();
@@ -33,8 +32,11 @@ export async function GET(req: Request, { params }: Params) {
   }
 }
 
-export async function PUT(req: Request, { params }: Params) {
-  const { id } = params;
+export async function PUT(
+  req: Request,
+  { params }: { params: Promise<{ id: string }> }
+) {
+  const { id } = await params;
   const session = await getServerSession(authOptions);
   if (!session || session.user.role !== "admin") {
     return new Response(JSON.stringify({ message: "Unauthorized" }), {
@@ -60,8 +62,11 @@ export async function PUT(req: Request, { params }: Params) {
   }
 }
 
-export async function DELETE(req: Request, { params }: Params) {
-  const { id } = params;
+export async function DELETE(
+  req: Request,
+  { params }: { params: Promise<{ id: string }> }
+) {
+  const { id } = await params;
   const session = await getServerSession(authOptions);
   if (!session || session.user.role !== "admin") {
     return new Response(JSON.stringify({ message: "Unauthorized" }), {
