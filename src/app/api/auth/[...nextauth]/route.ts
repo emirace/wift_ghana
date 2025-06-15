@@ -3,6 +3,7 @@ import CredentialsProvider from "next-auth/providers/credentials";
 import dbConnect from "@/lib/mongodb";
 import User from "@/models/user";
 import bcrypt from "bcrypt";
+import { NextRequest, NextResponse } from "next/server";
 
 // Extend the NextAuth User type to include 'role'
 declare module "next-auth" {
@@ -85,4 +86,10 @@ export const authOptions: AuthOptions = {
 
 const handler = NextAuth(authOptions);
 
-export { handler as GET, handler as POST };
+export async function GET(req: NextRequest, res: NextResponse) {
+  return handler(req, res);
+}
+
+export async function POST(req: NextRequest, res: NextResponse) {
+  return handler(req, res);
+}
