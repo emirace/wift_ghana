@@ -1,6 +1,6 @@
 import dbConnect from "@/lib/mongodb";
 import User from "@/models/user";
-import bcrypt from "bcrypt";
+// import bcrypt from "bcrypt";
 
 interface RegisterRequest {
   email: string;
@@ -8,7 +8,10 @@ interface RegisterRequest {
 }
 
 export async function POST(req: Request) {
-  const { email, password } = (await req.json()) as RegisterRequest;
+  const {
+    email,
+    // password
+  } = (await req.json()) as RegisterRequest;
 
   await dbConnect();
 
