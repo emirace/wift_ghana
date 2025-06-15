@@ -14,7 +14,7 @@ const UpcomingEventSection = async () => {
   return (
     <div className="container max-w-7xl mx-auto my-8 px-4">
       <h2 className="text-3xl md:text-4xl font-bold text-primary-maron mb-10">
-        Our Media Partners
+        Up Coming Events
       </h2>
       {events.length > 0 ? (
         <>
