@@ -10,6 +10,7 @@ import WhyUs from "./_components/whyUs";
 import OurObjectives from "./_components/ourObjectives";
 import ActionBanner from "./_components/actionBanner";
 import Partners from "./_components/partiners";
+import Events from "./_components/event";
 
 export default function Home() {
   return (
@@ -59,6 +60,7 @@ export default function Home() {
       <Pillars />
       <WhyUs />
       <OurObjectives />
+      <Events />
       <ExecutiveTeam />
       <Partners />
       <ActionBanner />

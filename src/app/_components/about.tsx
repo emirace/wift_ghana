@@ -71,7 +71,7 @@ export default function About() {
               alt="Smiling man"
               layout="fill"
               objectFit="cover"
-              className="rounded-3xl shadow-lg"
+              className="rounded-3xl shadow-lg object-top-right"
             />
           </div>
         </div>
