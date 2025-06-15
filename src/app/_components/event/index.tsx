@@ -14,6 +14,7 @@ const UpcomingEventSection = () => {
         const res = await axios.get<IEvent[]>("/api/events");
         setEvents(res.data);
       } catch (error) {
+        console.log("Error fetching events:", error);
         setEvents([]);
       }
     };
