@@ -36,7 +36,7 @@ const MembershipLevels = () => {
       benefits: [
         "Includes everything in Silver, plus:",
         "Invitations to advanced masterclasses (production, directing, funding)",
-        "Listing in WIFT Ghana’s Creative Directory",
+        "Listing in WIFTM Ghana’s Creative Directory",
         "Priority access to industry networking events",
       ],
     },

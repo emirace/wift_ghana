@@ -27,18 +27,18 @@ const Hero = () => {
         <div className="flex flex-col justify-center items-start  max-w-3xl">
           <div className="mb-4 text-primary-maron font-medium flex items-center gap-2">
             <FiCamera className="text-primary-green text-2xl" />
-            <span>WIFT Ghana</span>
+            <span>WIFTM Ghana</span>
             <span className="h-1 w-12 bg-white inline-block ml-4"></span>
           </div>
 
           <h1 className="text-4xl md:text-5xl font-bold leading-tight capitalize">
-            Become a Member of WIFT Ghana
+            Become a Member of WIFTM Ghana
           </h1>
           <p className="text-xl my-4">
-            Women in Film & Television Ghana (WIFT Ghana) is a growing community
-            of creatives, professionals, and advocates working to amplify
-            women’s voices in the screen industries. Choose a membership level
-            that matches your experience, goals, and commitment.
+            Women in Film & Television Ghana (WIFTM Ghana) is a growing
+            community of creatives, professionals, and advocates working to
+            amplify women’s voices in the screen industries. Choose a membership
+            level that matches your experience, goals, and commitment.
           </p>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSfRXtDX6OsOr-TWIEkxNwIp7n597EKfqOwjMYdkzxKTHcaxRg/viewform?embedded=true"

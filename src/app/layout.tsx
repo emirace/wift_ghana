@@ -41,9 +41,9 @@ const berthold = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "WIFT Ghana",
+  title: "WIFTM Ghana",
   description:
-    "A network of women called Women in Film and Television Ghana (WIFT Ghana) is working to create a more diverse film, television, and digital media landscape. ",
+    "A network of women called Women in Film, Television and Media Ghana Forum (WIFTM Ghana) is working to create a more diverse film, television, and digital media landscape. ",
 };
 
 export default function RootLayout({

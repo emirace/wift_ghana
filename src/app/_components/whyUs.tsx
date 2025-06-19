@@ -28,7 +28,7 @@ export default function WhyUs() {
           transition={{ duration: 0.6 }}
           className="text-4xl font-bold text-primary-maron mb-4"
         >
-          Why WIFT Ghana?
+          Why WIFTM Ghana?
         </motion.h2>
 
         <motion.p
@@ -40,8 +40,8 @@ export default function WhyUs() {
         >
           Ghana’s media and entertainment industry is booming — but the
           opportunities are not equally shared. Women still face barriers to
-          funding, recognition, mentorship, and leadership. WIFT Ghana exists to
-          break down those barriers and build a thriving, inclusive space for
+          funding, recognition, mentorship, and leadership. WIFTM Ghana exists
+          to break down those barriers and build a thriving, inclusive space for
           women in media.
         </motion.p>
 

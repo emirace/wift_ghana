@@ -55,7 +55,7 @@ export default function PresidentStatement() {
           <div className="text-primary-maron text-5xl mb-4">❝</div>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
             It is both an honour and a responsibility to serve as President of
-            Women in Film, Television and Media Ghana Forum (WIFT Ghana) — a
+            Women in Film, Television and Media Ghana Forum (WIFTM Ghana) — a
             dynamic, purpose-driven network of visionary women in Ghana’s film,
             television, and media industries.
           </p>
@@ -69,7 +69,7 @@ export default function PresidentStatement() {
             fair compensation, and safe, inclusive workspaces.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            WIFT Ghana exists to change that.
+            WIFTM Ghana exists to change that.
           </p>
           <button
             onClick={() => setContinueRead(!continueRead)}

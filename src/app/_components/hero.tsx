@@ -30,7 +30,7 @@ export default function Hero() {
             className="mb-4 text-primary-maron font-medium flex items-center gap-2"
           >
             <FiCamera className="text-primary-green text-2xl" />
-            <span>WIFT Ghana</span>
+            <span>WIFTM Ghana</span>
             <span className="h-1 w-12 bg-white inline-block ml-4"></span>
           </motion.div>
 

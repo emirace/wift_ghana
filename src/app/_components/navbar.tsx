@@ -24,7 +24,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 text-2xl font-medium">
           <Image src="/images/logo.png" alt="Logo" width={40} height={40} />
-          <div className="mt-2 hidden md:block">WIFT Ghana</div>
+          <div className="mt-2 hidden md:block">WIFTM Ghana</div>
         </Link>
         <div className="text-3xl md:hidden text-white ">
           {isOpen ? (
@@ -50,7 +50,7 @@ export default function Navbar() {
         </div>
         <div className="flex items-center gap-2 text-2xl font-medium md:hidden">
           <Image src="/images/logo.png" alt="Logo" width={40} height={40} />
-          <div className="mt-2 ">WIFT Ghana</div>
+          <div className="mt-2 ">WIFTM Ghana</div>
         </div>
         <div className="h-full overflow-y-auto flex flex-col md:flex-row gap-6">
           {navs.map((nav) => (

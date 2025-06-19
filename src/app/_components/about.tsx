@@ -9,7 +9,7 @@ export default function About() {
     >
       <ColorLines text="About Us" />
       <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-6 md:mb-6 max-w-xl">
-        <span className="text-primary-green">WIFT</span> Ghana{" "}
+        <span className="text-primary-green">WIFTM</span> Ghana{" "}
       </h2>
       <div className="flex flex-col-reverse md:flex-row items-center gap-10 justify-between ">
         <div className="md:w-3/5 mt-12 md:mt-0">
@@ -20,27 +20,27 @@ export default function About() {
             There’s a silent revolution happening in Ghana’s film and television
             industry — and at the heart of it is a fierce, unstoppable network
             of women. Welcome to Women in Film, Television and Media Ghana Forum
-            (WIFT Ghana)— a force committed to rewriting the story of women in
+            (WIFTM Ghana)— a force committed to rewriting the story of women in
             media.
           </p>
 
           <p className="text-gray-600 mb-4 text-lg leading-relaxeyd">
-            As the Ghanaian chapter of Women in Film & Television International
-            (WIFTI) — a global network with over 50 powerful chapters worldwide
-            — our mission is clear: To close the gender gap in production,
-            leadership, funding, and storytelling. We’re not just advocating for
-            change. We are building it.
+            As the Ghanaian chapter of Women in Film & Television (WIF) — a
+            global network with over 50 powerful chapters worldwide — our
+            mission is clear: To close the gender gap in production, leadership,
+            funding, and storytelling. We’re not just advocating for change. We
+            are building it.
           </p>
           <div className="text-primary-green text-2xl font-semibold mb-2">
             Who We Are
           </div>
 
           <p className="text-gray-600 mb-2 text-lg leading-relaxeyd">
-            WIFT Ghana is home to a growing collective of filmmakers, producers,
-            directors, screenwriters, editors, actors, cinematographers, and
-            media professionals united by a common vision: to amplify women’s
-            voices, champion equity, and reshape how stories are told — both in
-            front of and behind the screen.
+            WIFTM Ghana is home to a growing collective of filmmakers,
+            producers, directors, screenwriters, editors, actors,
+            cinematographers, and media professionals united by a common vision:
+            to amplify women’s voices, champion equity, and reshape how stories
+            are told — both in front of and behind the screen.
           </p>
           <p className="text-gray-600 mb-2 text-lg leading-relaxeyd">
             We believe that a fully inclusive and female-empowered industry is
