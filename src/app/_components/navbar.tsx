@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { IoCloseSharp } from "react-icons/io5";
 import { RiMenu3Fill } from "react-icons/ri";
+import Link from "next/link";
 
 const navs = [
   { name: "Home", path: "/" },
@@ -21,10 +22,10 @@ export default function Navbar() {
     <div className="flex  justify-between items-center px-6 py-4 overflow-y-auto overflow-x-hidden max-w-7xl mx-auto">
       <div className="flex items-center justify-between w-full md:w-auto ">
         {/* Logo */}
-        <div className="flex items-center gap-2 text-2xl font-medium">
+        <Link href="/" className="flex items-center gap-2 text-2xl font-medium">
           <Image src="/images/logo.png" alt="Logo" width={40} height={40} />
           <div className="mt-2 hidden md:block">WIFT Ghana</div>
-        </div>
+        </Link>
         <div className="text-3xl md:hidden text-white ">
           {isOpen ? (
             <IoCloseSharp onClick={() => setIsOpen(!isOpen)} />

@@ -11,11 +11,11 @@ const executives = [
     image: "/images/sonia.jpg",
     role: "HEAD OF EVENTS",
   },
-  // {
-  //   name: "Full name",
-  //   role: "pOSITION",
-  //   image: "/images/executive3.jpg",
-  // },
+  {
+    name: "Olubunmi Jones",
+    role: "Lead PR Strategist & Media Consultant",
+    image: "/images/excutive3.jpg",
+  },
 ];
 
 export default function ExecutiveTeam() {

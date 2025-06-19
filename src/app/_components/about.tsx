@@ -19,8 +19,9 @@ export default function About() {
           <p className="text-gray-600 mb-2 text-lg leading-relaxeyd">
             There’s a silent revolution happening in Ghana’s film and television
             industry — and at the heart of it is a fierce, unstoppable network
-            of women. Welcome to Women in Film and Television Ghana (WIFT
-            Ghana)— a force committed to rewriting the story of women in media.
+            of women. Welcome to Women in Film, Television and Media Ghana Forum
+            (WIFT Ghana)— a force committed to rewriting the story of women in
+            media.
           </p>
 
           <p className="text-gray-600 mb-4 text-lg leading-relaxeyd">

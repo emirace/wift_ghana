@@ -55,8 +55,8 @@ export default function PresidentStatement() {
           <div className="text-primary-maron text-5xl mb-4">❝</div>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
             It is both an honour and a responsibility to serve as President of
-            Women in Film & Television Ghana (WIFT Ghana) — a dynamic,
-            purpose-driven network of visionary women in Ghana’s film,
+            Women in Film, Television and Media Ghana Forum (WIFT Ghana) — a
+            dynamic, purpose-driven network of visionary women in Ghana’s film,
             television, and media industries.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">

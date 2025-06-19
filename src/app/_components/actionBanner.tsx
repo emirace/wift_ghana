@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 export default function ActionBanner() {
   return (
     <section className="relative bg-gradient-to-b from-primary-maron to-primary-green text-white py-10 px-6 md:px-16 overflow-hidden">
@@ -18,13 +20,12 @@ export default function ActionBanner() {
           Join us in building a Ghana where women not only dream in color but
           direct, produce, write, and act in it too.
         </p>
-        <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSfRXtDX6OsOr-TWIEkxNwIp7n597EKfqOwjMYdkzxKTHcaxRg/viewform?embedded=true"
-          target="_blank"
+        <Link
+          href="/membership"
           className="bg-white cursor-pointer text-primary-maron font-semibold px-8 py-3 rounded-full shadow-md hover:bg-orange-100 transition duration-300"
         >
           Join the Movement
-        </a>
+        </Link>
       </div>
     </section>
   );

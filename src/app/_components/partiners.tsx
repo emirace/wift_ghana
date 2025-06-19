@@ -5,6 +5,7 @@ export default function Partners() {
     { name: "Ghana Film Commission", logo: "/images/un_women.jpg" },
     { name: "Cypress", logo: "/images/cypress.JPG" },
     { name: "Black Hub", logo: "/images/blackhub.png" },
+    { name: "Wifii", logo: "/images/wifti_logo.png" },
   ];
 
   return (

@@ -19,43 +19,6 @@ export default function Home() {
       <FloatingHeader />
       <About />
       <PresidentStatement />
-
-      {/* <div className="flex mx-auto max-w-7xl p-4 md:px-8 justify-center items-center w-full">
-        <HorizontalCards
-          cards={[
-            {
-              imageUrl: "/images/image02.jpg",
-              info: "example info",
-              link: "",
-              title: "Title",
-            },
-            {
-              imageUrl: "/images/image02.jpg",
-              info: "example info",
-              link: "",
-              title: "Title",
-            },
-            {
-              imageUrl: "/images/image02.jpg",
-              info: "example info",
-              link: "",
-              title: "Title",
-            },
-            {
-              imageUrl: "/images/image02.jpg",
-              info: "example info",
-              link: "",
-              title: "Title",
-            },
-            {
-              imageUrl: "/images/image02.jpg",
-              info: "example info",
-              link: "",
-              title: "Title",
-            },
-          ]}
-        />
-      </div> */}
       <VisionMission />
       <Pillars />
       <WhyUs />
