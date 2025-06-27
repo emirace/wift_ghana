@@ -1,6 +1,7 @@
 // components/Footer.tsx
 
 import Image from "next/image";
+import Link from "next/link";
 import {
   FaFacebookF,
   FaTwitter,
@@ -126,15 +127,15 @@ export default function Footer() {
       <div className="relative z-10 border-t border-gray-700 mt-16 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
         <p>Copyright ©2025 WIFT Ghana. All Rights Reserved</p>
         <div className="flex space-x-6 mt-4 md:mt-0">
-          <a href="/" className="hover:text-primary-maron">
+          <Link href="/" className="hover:text-primary-maron">
             Home
-          </a>
+          </Link>
           <a href="/#about" className="hover:text-primary-maron">
             About
           </a>
-          <a href="/membership" className="hover:text-primary-maron">
+          <Link href="/membership" className="hover:text-primary-maron">
             Membership
-          </a>
+          </Link>
           <a href="/#pillars" className="hover:text-primary-maron">
             Pillars
           </a>
