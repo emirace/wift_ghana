@@ -5,7 +5,6 @@ import {
   FaFacebookF,
   FaTwitter,
   FaInstagram,
-  FaGooglePlusG,
   FaLinkedin,
 } from "react-icons/fa";
 import { MdPhone, MdEmail } from "react-icons/md";
