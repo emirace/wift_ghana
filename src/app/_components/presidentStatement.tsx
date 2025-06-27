@@ -69,7 +69,7 @@ export default function PresidentStatement() {
             fair compensation, and safe, inclusive workspaces.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            WIFTM Ghana exists to change that.
+            WIFT Ghana exists to change that.
           </p>
           <button
             onClick={() => setContinueRead(!continueRead)}

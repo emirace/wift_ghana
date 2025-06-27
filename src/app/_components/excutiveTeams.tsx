@@ -16,6 +16,16 @@ const executives = [
     role: "Lead PR Strategist & Media Consultant",
     image: "/images/excutive3.jpg",
   },
+  {
+    name: "Michelle Attoh",
+    role: "Head of Sponsorships and Investments",
+    image: "/images/executive4.jpg",
+  },
+  {
+    name: "Rama Brew ",
+    role: "Patron / Advisor",
+    image: "/images/executive5.jpg",
+  },
 ];
 
 export default function ExecutiveTeam() {
@@ -25,11 +35,11 @@ export default function ExecutiveTeam() {
         Meet Our Executive Team
       </h2>
 
-      <div className="flex flex-wrap items-center gap-10">
+      <div className="flex flex-wrap items-center justify-center">
         {executives.map((exec, idx) => (
           <div
             key={idx}
-            className="max-w-72 flex flex-col items-center text-center mx-auto"
+            className="md:w-1/3 flex flex-col items-center text-center mb-10"
           >
             <div className="relative overflow-hidden rounded shadow-lg">
               <Image

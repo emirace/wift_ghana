@@ -9,7 +9,7 @@ export default function About() {
     >
       <ColorLines text="About Us" />
       <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-6 md:mb-6 max-w-xl">
-        <span className="text-primary-green">WIFTM</span> Ghana{" "}
+        <span className="text-primary-green">WIFT</span> Ghana{" "}
       </h2>
       <div className="flex flex-col-reverse md:flex-row items-center gap-10 justify-between ">
         <div className="md:w-3/5 mt-12 md:mt-0">
@@ -25,11 +25,11 @@ export default function About() {
           </p>
 
           <p className="text-gray-600 mb-4 text-lg leading-relaxeyd">
-            As the Ghanaian chapter of Women in Film & Television (WIF) — a
-            global network with over 50 powerful chapters worldwide — our
-            mission is clear: To close the gender gap in production, leadership,
-            funding, and storytelling. We’re not just advocating for change. We
-            are building it.
+            As the Ghanaian chapter of Women in Film & Television International
+            (WIFTI) — a global network with over 50 powerful chapters worldwide
+            — our mission is clear: To close the gender gap in production,
+            leadership, funding, and storytelling. We’re not just advocating for
+            change. We are building it.
           </p>
           <div className="text-primary-green text-2xl font-semibold mb-2">
             Who We Are

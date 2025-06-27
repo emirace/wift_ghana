@@ -28,7 +28,7 @@ export default function WhyUs() {
           transition={{ duration: 0.6 }}
           className="text-4xl font-bold text-primary-maron mb-4"
         >
-          Why WIFTM Ghana?
+          Why WIFT Ghana?
         </motion.h2>
 
         <motion.p

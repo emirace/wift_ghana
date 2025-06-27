@@ -2,11 +2,11 @@ import React from "react";
 import { FiCalendar } from "react-icons/fi";
 
 const events = [
-  "Women in Film Ghana Festival & Awards",
-  "Women in Film Ghana Summit",
-  "Women in Film Ghana Seminar",
-  "Women in Film Ghana Workshop",
-  "Women in Film Ghana Conference",
+  "WIFTM Ghana Festival & Awards",
+  "WIFTM Ghana Summit",
+  "WIFTM Ghana Seminar",
+  "WIFTM Ghana Workshop",
+  "WIFTM Ghana Conference",
 ];
 
 const UpcomingEventSection = () => {
@@ -14,7 +14,7 @@ const UpcomingEventSection = () => {
     <section className="py-10 font-inter bg-accent/20">
       <div className="container mx-auto px-6 max-w-6xl">
         <h2 className="text-4xl font-bold  text-center mb-10">
-          Upcoming Events
+          Upcoming WIFTM Ghana summit 
         </h2>
         <ul className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {events.map((event, index) => (

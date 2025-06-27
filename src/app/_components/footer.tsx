@@ -6,6 +6,7 @@ import {
   FaTwitter,
   FaInstagram,
   FaGooglePlusG,
+  FaLinkedin,
 } from "react-icons/fa";
 import { MdPhone, MdEmail } from "react-icons/md";
 
@@ -25,7 +26,7 @@ const icons = [
     link: "https://www.instagram.com/wiftghana?igsh=MWx6aXNvbGsxM28zZw==",
   },
   {
-    icon: FaGooglePlusG,
+    icon: FaLinkedin,
     link: "",
   },
 ];
@@ -51,10 +52,10 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-2 text-2xl font-medium mb-4">
             <Image src="/images/logo.png" alt="Logo" width={40} height={40} />
-            <div className="mt-2 hidden md:block">WIFTM Ghana</div>
+            <div className="mt-2 hidden md:block">WIFT Ghana</div>
           </div>
           <p className="mb-6">
-            WIFTM Ghana is a proud member of the global WIFTI network, committed
+            WIFT Ghana is a proud member of the global WIFTI network, committed
             to empowering women in Ghana’s film, TV, and media industries. We
             amplify voices, champion visibility, and work to dismantle barriers
             to leadership, funding, and inclusion.
@@ -124,19 +125,19 @@ export default function Footer() {
 
       {/* Footer Bottom */}
       <div className="relative z-10 border-t border-gray-700 mt-16 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
-        <p>Copyright ©2025 WIFTM Ghana. All Rights Reserved</p>
+        <p>Copyright ©2025 WIFT Ghana. All Rights Reserved</p>
         <div className="flex space-x-6 mt-4 md:mt-0">
-          <a href="#" className="hover:text-primary-maron">
+          <a href="/" className="hover:text-primary-maron">
+            Home
+          </a>
+          <a href="/#about" className="hover:text-primary-maron">
             About
           </a>
-          <a href="#" className="hover:text-primary-maron">
+          <a href="/membership" className="hover:text-primary-maron">
+            Membership
+          </a>
+          <a href="/#pillars" className="hover:text-primary-maron">
             Pillars
-          </a>
-          <a href="#" className="hover:text-primary-maron">
-            Portfolios
-          </a>
-          <a href="#" className="hover:text-primary-maron">
-            Contact
           </a>
         </div>
       </div>

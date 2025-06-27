@@ -7,7 +7,7 @@ export default function Header() {
     <header className="relative  text-white  ">
       <div className="hidden md:flex justify-between items-center px-6 py-4 border-b border-gray-700 max-w-7xl mx-auto">
         <p>
-          Welcome to WIFTM Ghana.{" "}
+          Welcome to WIFT Ghana.{" "}
           {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
           <a href="/#contact" className="text-primary-maron">
             Have Any Question?
