@@ -130,15 +130,15 @@ export default function Footer() {
           <Link href="/" className="hover:text-primary-maron">
             Home
           </Link>
-          <a href="/#about" className="hover:text-primary-maron">
+          <Link href="/#about" className="hover:text-primary-maron">
             About
-          </a>
+          </Link>
           <Link href="/membership" className="hover:text-primary-maron">
             Membership
           </Link>
-          <a href="/#pillars" className="hover:text-primary-maron">
+          <Link href="/#pillars" className="hover:text-primary-maron">
             Pillars
-          </a>
+          </Link>
         </div>
       </div>
     </footer>
