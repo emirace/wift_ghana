@@ -47,7 +47,7 @@ export default function ExecutiveTeam() {
                 alt={exec.name}
                 width={288}
                 height={384}
-                className="w-full h-96 object-cover  hover:grayscale transition duration-500"
+                className="w-full h-96 object-cover object-top  hover:grayscale transition duration-500"
               />
             </div>
             {/* <div className="flex justify-center gap-4 mt-4 text-primary-maron font-bold">
